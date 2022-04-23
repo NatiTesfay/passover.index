@@ -1,0 +1,151 @@
+@media only screen and (max-width:600px) {
+ body{
+     background-color: rgb(119, 83, 83);
+ }
+ .main-grid{
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 0.2fr 0.2fr 8fr 0.2fr;
+     grid-template-areas: 
+     'header'
+     'sidebar'
+     'main'
+     'footer';
+     gap: 0.4;
+     border: 2px solid black;
+     border-radius: 8px;
+     padding: 5px;
+     background-color: rgb(92, 100, 121);
+ }
+ header{
+    grid-area: header;
+    background-color: black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+
+#list1{
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 5vh;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#list1:hover{
+    background-color: black;
+    color: white;
+}
+main{
+    grid-area: main;
+    background-color: rgb(92, 100, 121);
+   
+}
+.text{
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+}
+.img{
+    display: flex;
+    position: absolute;
+    right:38vw;
+    border-radius: 20vw;
+}
+#img1{
+    display: flex;
+    position: absolute;
+    right:40vw;
+}
+.school2{
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+}
+#img2{
+    display: flex;
+    position: absolute;
+    right:40vw;
+}
+.army{
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+#img3{
+    display: flex;
+    position: absolute;
+    right:40vw;
+}
+.work{
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+.pro{
+    position: absolute;
+    right: 25vw;
+}
+.subject{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+@keyframes anime {
+ from{filter: url(imgs/1.jpeg);}
+ to{filter: url(imgs/deko.jpg);}
+    
+}
+
+#animetion{
+    transition: all;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-timing-function: inherit;
+}
+
+
+
+
+footer{
+    grid-area: footer;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    top: 10vw;
+}
+
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

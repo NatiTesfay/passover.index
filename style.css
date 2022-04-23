@@ -1,0 +1,141 @@
+@media only screen and (min-width:600px) {
+    body{
+        background-color: rgb(119, 83, 83);
+        
+    }
+    .main-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.2fr 10fr 0.2fr;
+        grid-template-areas: 
+        'header header header header'
+        'sidebar main main main'
+        'sidebar main main main'
+        'footer footer footer footer';
+        height: 350vh;
+        gap: 1;
+        border: 2px solid black;
+        border-radius: 8px;
+        padding: 5px;
+        background-color: rgb(119, 83, 83);
+    }
+    header{
+       grid-area: header;
+       background-color: black;
+       border-radius: 8px;
+       display: flex;
+       justify-content: space-evenly;
+       
+   }
+   
+   .sidebar{
+       grid-area: sidebar;
+   }
+   
+   #list1{
+       border: 2px solid black;
+       border-radius: 8px;
+       height: 5vh;
+       width: 10vw;
+       justify-content: center;
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;
+       color:rgb(119, 83, 83);;
+       
+   }
+   #list1:hover{
+       background-color: black;
+       color: white;
+   }
+   main{
+       grid-area: main;
+       background-color: rgb(119, 83, 83);
+      
+   }
+   .text{
+       border-radius: 8px;
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;  
+       color: white;
+       
+   }
+   .img{
+       display: flex;
+       position: absolute;
+       right:38vw;
+       border-radius: 90vw;
+       
+   }
+   .img:hover{
+       width: 15vw;
+       height: 25vh;
+       
+   }
+   #img1{
+       display: flex;
+       position: absolute;
+       right:40vw;
+   }
+   .school2{
+       padding: 50px;
+       border-radius: 8px;
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;  
+       color: white;
+   }
+   #img2{
+       display: flex;
+       position: absolute;
+       right:40vw;
+   }
+   .army{
+       padding: 50px;
+       border-radius: 8px;
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold; 
+       color: white;
+     
+   }
+   #img3{
+       display: flex;
+       position: absolute;
+       right:40vw;
+   }
+   .work{
+       color: white;
+       padding: 50px;
+       border-radius: 8px;
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold; 
+   }
+   .pro{
+       color: white;
+       position: absolute;
+       right:35vw;
+   }
+   .subject{
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold; 
+   }
+   
+   
+   footer{
+       grid-area: footer;
+       border-radius: 5px;
+       padding: 5px;
+       display: flex;
+       justify-content: space-around;
+       top: 10vw;
+   }
+   
+   
+       
+   
+   }
+   
