@@ -64,6 +64,7 @@ main{
     display: flex;
     position: absolute;
     right:40vw;
+    
 }
 .school2{
     border: 2px solid black;
@@ -76,6 +77,7 @@ main{
     display: flex;
     position: absolute;
     right:40vw;
+    
 }
 .army{
     border: 2px solid black;
@@ -97,6 +99,7 @@ main{
     font-weight: bold; 
 }
 .pro{
+    
     position: absolute;
     right: 25vw;
 }
@@ -105,21 +108,10 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold; 
 }
-@keyframes anime {
- from{filter: url(imgs/1.jpeg);}
- to{filter: url(imgs/deko.jpg);}
-    
+.animetion{
+   display: flex;
+   bottom: 7vw;
 }
-
-#animetion{
-    transition: all;
-    animation-name: anime;
-    animation-duration: 4s;
-    animation-timing-function: inherit;
-}
-
-
-
 
 footer{
     grid-area: footer;

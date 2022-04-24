@@ -64,8 +64,9 @@
    .img{
        display: flex;
        position: absolute;
-       right:38vw;
+       right:60vw;
        border-radius: 90vw;
+       
        
    }
    .img:hover{
@@ -77,6 +78,7 @@
        display: flex;
        position: absolute;
        right:40vw;
+    
    }
    .school2{
        padding: 50px;
@@ -117,13 +119,34 @@
        color: white;
        position: absolute;
        right:35vw;
+       
+       border: 2px solid  rgb(119, 83, 83);;
    }
    .subject{
-       text-align: center;
+       text-align: start;
        font-family: Arial, Helvetica, sans-serif;
        font-weight: bold; 
+       align-items: center;
+       justify-content: space-between;
+   }
+   #projects{
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    text-decoration: underline;
+    right: 40vw;
+    position: absolute;
    }
    
+   
+   #animetion{
+       display: flex;
+       top: h;
+       transition: all;
+       animation-name: anime;
+       animation-duration: 4s;
+       animation-timing-function: inherit;
+   }
    
    footer{
        grid-area: footer;
